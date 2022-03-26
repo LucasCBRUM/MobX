@@ -6,8 +6,7 @@ import 'home.dart';
 
 void main() {
   GetIt getIt = GetIt.I;
-  getIt.registerSingleton(instance);
-
+  getIt.registerSingleton<Controller>(Controller());
   runApp(const MyApp());
 }
 
